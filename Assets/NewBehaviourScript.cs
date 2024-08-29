@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    [SerializeField] float Speed = 42.0f;
+
     // Start is called before the first frame update
     void Start()
     {
